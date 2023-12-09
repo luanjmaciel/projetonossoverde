@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/12661466-sem-costura-padrao-com-bajulacao-sobre-um-fundo-verde-claro-ilustracaoial-simples-desenhado-a-mao-estilo-plano-calmo-neutro-natural-vetor.jpg);}
+  
+  .titulo {
+    background-color: rgb(103, 161, 88);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu {
+    background-color: #eee;
+    padding: 10px 30px;
+    text-align: center;
+  }
+  
+  .menu a {
+    margin: 0 20px; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .imagem-banner {
+    width: 100%;
+  }
+  
+  .boas-vindas {
+    text-align: justify;
+    padding: 20px;
+    margin: 0 20px; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+   
+  }
+  
+  .pontos-turisticos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 20px; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: rgb(153, 227, 132);
+  }
+  
+  .ponto {
+    width: 45%;
+    margin: 10px;
+    text-align: justify;
+  }
+  
+  .bordaimg {
+    border: 2px solid #86ed95;
+    border-radius: 8px;
+  }
+#p1{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: rgb(153, 227, 132);}
+.lista{
+    margin: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: rgb(153, 227, 132);}
+footer {
+    background-color: rgb(112, 168, 110); 
+    color: #fff;
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+  footer a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+    
