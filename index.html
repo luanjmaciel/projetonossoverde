@@ -12,11 +12,19 @@
     <h1>Projeto Nosso Verde</h1>
     <p>Salvando o mundo hoje, vivendo sempre pelo amanhã. </p>
   </div>
+ 
+  
+  <button class="menu-abrir-icon">&#9776;</button>
 
   <div class="menu">
+    
     <a href="projeto.html">Projeto</a>
     <a href="cadastro.html">Cadastro</a>
     <a href="informaçoes.html">Informações sobre o nosso projeto.</a>
+   <button class="menu-fechar-icon">Fechar </button> 
+  </div>
+
+  
   </div>
 
   <img class="imagem-banner" src="https://observatorio3setor.org.br/wp-content/uploads/2023/05/AdobeStock_481256183-1024x683.jpeg" height="600" width="800" alt="Banner de Londres">
@@ -97,6 +105,40 @@
       <a href="#">Contato</a>
     </nav>
   </footer>
+  <script>
+    var menu = document.querySelector('.menu'); 
+    var menuFecharIcon = document.querySelector('.menu-fechar-icon');
+    var menuAbrirIcon = document.querySelector('.menu-abrir-icon');    
+    
+
+    menuFecharIcon.addEventListener('click', function () {
+      menu.style.display = 'none';
+      menuAbrirIcon.style.display = 'block';
+      menuFecharIcon.style.display = 'none';
+    });   
+
+    menuAbrirIcon.addEventListener('click', function () {
+      menu.style.display = 'block';
+      menuAbrirIcon.style.display = 'none';
+      menuFecharIcon.style.display = 'block';
+    });
+
+    
+   
+     // Mostrar o menu ao passar o mouse por cima
+     menu.addEventListener('mouseover', function () {
+      menu.style.display = 'block';
+      menuAbrirIcon.style.display = 'none';
+      menuFecharIcon.style.display = 'block';
+    });
+
+    // Esconder o menu ao tirar o mouse de cima
+    menu.addEventListener('mouseout', function () {
+      menu.style.display = 'none';
+      menuAbrirIcon.style.display = 'block';
+      menuFecharIcon.style.display = 'none';
+    });
+  </script>
 
 </body>
 </html>
